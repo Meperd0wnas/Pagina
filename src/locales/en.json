@@ -2,5 +2,14 @@
   "homepage": {
     "welcome": "Welcome 🚀",
     "description": "This is the homepage with Tailwind working."
+  },
+  "navbar": {
+    "title":"Computer Lab",
+    "logo": "IS Laboratory",
+    "home": "Home",
+    "labs": "Labs",
+    "monitors": "Monitors",
+    "contact": "Contact",
+    "login": "Login"
   }
 }

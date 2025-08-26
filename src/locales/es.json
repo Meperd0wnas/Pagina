@@ -2,5 +2,14 @@
   "homepage": {
     "welcome": "Bienvenido 🚀",
     "description": "Esta es la página inicial con Tailwind funcionando."
+  },
+  "navbar": {
+    "title":"Laboratorio de informática",
+    "logo": "Laboratorio IS",
+    "home": "Inicio",
+    "labs": "Laboratorios",
+    "monitors": "Monitores",
+    "contact": "Contacto",
+    "login": "Ingresar"
   }
 }
