@@ -1,16 +1,22 @@
+// src/App.jsx
+import React from "react";
 import HomePage from "./pages/HomePage";
+import LanguageSwitcher from "./components/LanguageSwitcher";
 
 export default function App() {
   return (
     <div className="flex flex-col min-h-screen bg-gray-100">
       {/* NAVBAR */}
-      <header className="bg-gradient-to-r from-[#00814b] to-green-700 text-white p-4">
+      <header className="bg-gradient-to-r from-[#00814b] to-green-600 text-white p-4 shadow-md">
         <nav className="max-w-7xl mx-auto flex justify-between items-center">
           <h1 className="text-2xl font-bold">Laboratorio de informática</h1>
-          <div className="space-x-6">
-            <button className="hover:text-yellow-300 transition-colors">Inicio</button>
-            <button className="hover:text-yellow-300 transition-colors">Servicios</button>
-            <button className="hover:text-yellow-300 transition-colors">Contacto</button>
+          <div className="flex items-center space-x-6">
+            <button className="hover:text-gray-200 transition">Inicio</button>
+            <button className="hover:text-gray-200 transition">Servicios</button>
+            <button className="hover:text-gray-200 transition">Contacto</button>
+
+            {/* Language Switcher */}
+            <LanguageSwitcher />
           </div>
         </nav>
       </header>
@@ -27,4 +33,3 @@ export default function App() {
     </div>
   );
 }
-
