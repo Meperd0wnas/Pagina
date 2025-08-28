@@ -11,5 +11,12 @@
     "monitors": "Monitors",
     "contact": "Contact",
     "login": "Login"
+  },
+  "footer": {
+    "rights": "© {{year}} Computer Lab. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "support": "Support"
   }
+
 }

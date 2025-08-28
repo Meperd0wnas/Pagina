@@ -11,5 +11,11 @@
     "monitors": "Monitores",
     "contact": "Contacto",
     "login": "Ingresar"
+  },
+  "footer": {
+    "rights": "© {{year}} Laboratorio IS. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Uso",
+    "support": "Soporte"
   }
 }
