@@ -25,7 +25,7 @@ export default function HomePage() {
       {/* CONTENIDO PRINCIPAL (encima del overlay) */}
       <div className="relative z-20 text-center px-6 max-w-3xl">
         <h2 className="text-3xl md:text-5xl font-extrabold text-white mb-4">
-          {t("homepage.welcome")} 🚀
+          {t("homepage.welcome")} 
         </h2>
 
         <p className="text-base md:text-lg text-white/90">
