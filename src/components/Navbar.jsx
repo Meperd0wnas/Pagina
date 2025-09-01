@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-gradient-to-r from-[#00814b] to-green-600 text-white shadow">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-1 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="text-xl font-bold">{t("navbar.title")}</div>
 

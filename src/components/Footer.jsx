@@ -6,7 +6,7 @@ export default function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="bg-gray-900 text-gray-300 py-8 min-h-[160px] flex items-center">
+    <footer className="bg-gray-900 text-gray-300 py-8 min-h-[150px] flex items-center">
       <div className="max-w-6xl mx-auto px-4 text-center w-full">
         <p className="text-sm mb-4 md:mb-0">
           {t("footer.rights")}
