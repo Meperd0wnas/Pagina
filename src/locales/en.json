@@ -1,7 +1,10 @@
 {
   "homepage": {
     "welcome": "Welcome ",
-    "description": "This is the homepage with Tailwind working."
+    "description": "This is the homepage with Tailwind working.",
+    "cta": "View Labs",
+    "learnMore": "Learn More",
+    "videoAlt": "Background video"
   },
   "navbar": {
     "title":"Computer Lab",
@@ -13,7 +16,7 @@
     "login": "Login"
   },
   "footer": {
-    "rights": "© {{year}} Computer Lab. All rights reserved.",
+    "rights": "© 2025 Computer Lab. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "support": "Support"

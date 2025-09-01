@@ -1,7 +1,10 @@
 {
   "homepage": {
     "welcome": "Bienvenido ",
-    "description": "Esta es la página inicial con Tailwind funcionando."
+    "description": "Esta es la página inicial con Tailwind funcionando.",
+    "cta": "Ver laboratorios",
+    "learnMore": "Más información",
+    "videoAlt": "Video de fondo"
   },
   "navbar": {
     "title":"Laboratorio de informática",
@@ -13,7 +16,7 @@
     "login": "Ingresar"
   },
   "footer": {
-    "rights": "© {{year}} Laboratorio IS. Todos los derechos reservados.",
+    "rights": "© 2025 Laboratorio IS. Todos los derechos reservados.",
     "privacy": "Política de Privacidad",
     "terms": "Términos de Uso",
     "support": "Soporte"
