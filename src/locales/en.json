@@ -1,7 +1,7 @@
 {
   "homepage": {
-    "welcome": "Welcome ",
-    "description": "This is the homepage with Tailwind working.",
+    "welcome": "Welcome",
+    "description": "High-level technology for students of Systems Engineering, Statistics, AI, and Cybersecurity.",
     "cta": "View Labs",
     "learnMore": "Learn More",
     "videoAlt": "Background video"

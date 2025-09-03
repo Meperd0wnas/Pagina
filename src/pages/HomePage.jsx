@@ -1,13 +1,17 @@
 // src/pages/HomePage.jsx
-import React from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 export default function HomePage() {
   const { t } = useTranslation();
 
+  useEffect(() => {
+    document.title = `${t("navbar.title")} - Escuela Colombiana de Ingeniería Julio Garavito`;
+  }, [t]);
+
   return (
     <main className="relative flex-grow flex items-center justify-center overflow-hidden min-h-screen">
-      {/* VIDEO DE FONDO: */}
+      {/* VIDEO DE FONDO */}
       <video
         className="absolute inset-0 w-full h-full object-cover z-0"
         src="/videos/background.mp4"
@@ -17,7 +21,10 @@ export default function HomePage() {
         playsInline
         preload="auto"
         aria-label={t("homepage.videoAlt", "Background video")}
-      />
+      >
+        {/* Fallback en caso de que el navegador no soporte video */}
+        {t("homepage.videoAlt", "Tu navegador no soporta video de fondo.")}
+      </video>
 
       {/* Overlay semitransparente para mejorar legibilidad */}
       <div className="absolute inset-0 bg-black/45 z-10" />
@@ -25,14 +32,14 @@ export default function HomePage() {
       {/* CONTENIDO PRINCIPAL (encima del overlay) */}
       <div className="relative z-20 text-center px-6 max-w-3xl">
         <h2 className="text-3xl md:text-5xl font-extrabold text-white mb-4">
-          {t("homepage.welcome")} 
+          {t("homepage.welcome")}
         </h2>
 
         <p className="text-base md:text-lg text-white/90">
           {t("homepage.description")}
         </p>
 
-        {/* CTA (sin redirección) */}
+        {/* CTA (sin redirección por ahora) */}
         <div className="mt-8 flex justify-center gap-4">
           <button
             type="button"
@@ -56,4 +63,3 @@ export default function HomePage() {
     </main>
   );
 }
-

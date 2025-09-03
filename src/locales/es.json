@@ -1,7 +1,7 @@
 {
   "homepage": {
-    "welcome": "Bienvenido ",
-    "description": "Esta es la página inicial con Tailwind funcionando.",
+    "welcome": "Bienvenido",
+    "description": "Tecnología de alto nivel para estudiantes de Ingeniería de Sistemas, Estadística, IA y Ciberseguridad.",
     "cta": "Ver laboratorios",
     "learnMore": "Más información",
     "videoAlt": "Video de fondo"
