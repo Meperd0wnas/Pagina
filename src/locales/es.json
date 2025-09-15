@@ -7,7 +7,7 @@
     "videoAlt": "Video de fondo"
   },
   "navbar": {
-    "title":"Laboratorio de informática",
+    "title": "Laboratorio de informática",
     "logo": "Laboratorio IS",
     "home": "Inicio",
     "labs": "Laboratorios",
@@ -20,5 +20,12 @@
     "privacy": "Política de Privacidad",
     "terms": "Términos de Uso",
     "support": "Soporte"
+  },
+  "labs": {
+    "title": "Nuestros Laboratorios",
+    "lab1": "Laboratorio 1",
+    "lab2": "Laboratorio 2",
+    "lab3": "Laboratorio 3",
+    "lab4": "Laboratorio 4"
   }
 }

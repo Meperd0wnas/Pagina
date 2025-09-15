@@ -1,8 +1,9 @@
-// src/App.jsx
 import React from "react";
+import { Routes, Route } from "react-router-dom"; // 👈 IMPORTANTE
 import HomePage from "./pages/HomePage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import LaboratoriesPage from "./pages/LaboratoriesPage";
 
 export default function App() {
   return (
@@ -10,8 +11,11 @@ export default function App() {
       {/* NAVBAR */}
       <Navbar />
 
-      {/* CONTENIDO PRINCIPAL */}
-      <HomePage />
+      {/* RUTAS */}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/laboratories" element={<LaboratoriesPage />} />
+      </Routes>
 
       {/* FOOTER */}
       <Footer />

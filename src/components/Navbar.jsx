@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+
 
 export default function Navbar() {
   const { t, i18n } = useTranslation();
@@ -23,19 +25,20 @@ export default function Navbar() {
 
         {/* Links en desktop (centrados) */}
         <div className="hidden md:flex justify-center space-x-6 font-medium">
-          <a href="#home" className="hover:text-gray-200 transition">
+          <Link to="/" className="hover:text-gray-200 transition">
             {t("navbar.home")}
-          </a>
-          <a href="#laboratories" className="hover:text-gray-200 transition">
+          </Link>
+          <Link to="/laboratories" className="hover:text-gray-200 transition">
             {t("navbar.labs")}
-          </a>
-          <a href="#monitors" className="hover:text-gray-200 transition">
+          </Link>
+          <Link to="/monitors" className="hover:text-gray-200 transition">
             {t("navbar.monitors")}
-          </a>
-          <a href="#contact" className="hover:text-gray-200 transition">
+          </Link>
+          <Link to="/contact" className="hover:text-gray-200 transition">
             {t("navbar.contact")}
-          </a>
+          </Link>
         </div>
+
 
         {/* Switcher de idioma (derecha) */}
         <div className="hidden md:flex justify-end space-x-2">

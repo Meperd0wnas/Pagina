@@ -7,7 +7,7 @@
     "videoAlt": "Background video"
   },
   "navbar": {
-    "title":"Computer Lab",
+    "title": "Computer Lab",
     "logo": "IS Laboratory",
     "home": "Home",
     "labs": "Labs",
@@ -20,6 +20,13 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "support": "Support"
+  },
+  "labs": {
+    "title": "Our Laboratories",
+    "lab1": "Laboratory 1",
+    "lab2": "Laboratory 2",
+    "lab3": "Laboratory 3",
+    "lab4": "Laboratory 4"
   }
-
 }
+
