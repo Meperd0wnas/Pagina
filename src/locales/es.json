@@ -4,10 +4,23 @@
     "description": "Tecnología de alto nivel para estudiantes de Ingeniería de Sistemas, Estadística, IA y Ciberseguridad.",
     "cta": "Ver laboratorios",
     "learnMore": "Más información",
-    "videoAlt": "Video de fondo"
+    "videoAlt": "Video de fondo",
+    "labsTitle": "Nuestros Laboratorios",
+    "labInfo": "Información general del laboratorio: ubicación, equipos principales y áreas de investigación."
+  },
+  "labs": {
+    "interactiva": "Aula Interactiva",
+    "videojuegos": "Laboratorio de Realidad Aumentada y Desarrollo de Videojuegos",
+    "fundamentos": "Laboratorio de Fundamentos de Computación",
+    "estrategias": "Aula de Estrategias Digitales para la Formación en Informática",
+    "practicas": "Práctica Libre y Pruebas",
+    "multimedia": "Aula Multimedia y Móviles",
+    "redes": "Redes de Computadores",
+    "plataformas": "Plataformas Computacionales",
+    "software": "Ingeniería de Software"
   },
   "navbar": {
-    "title":"Laboratorio de informática",
+    "title": "Laboratorio de informática",
     "logo": "Laboratorio IS",
     "home": "Inicio",
     "labs": "Laboratorios",
