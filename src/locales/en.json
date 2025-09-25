@@ -33,5 +33,35 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "support": "Support"
+  },
+
+    "monitors": {
+    "title": "Lab Monitors",
+    "students": {
+      "david": {
+        "name": "David Salamanca",
+        "caption": "Systems Engineering Student"
+      },
+      "ruge": {
+        "name": "Daniel Ruge",
+        "caption": "Systems Engineering Student"
+      },
+      "tulio": {
+        "name": "Tulio Riaño",
+        "caption": "Systems Engineering Student"
+      },
+      "sergio": {
+        "name": "Sergio",
+        "caption": "Systems Engineering Student"
+      },
+      "maria": {
+        "name": "María",
+        "caption": "Systems Engineering Student"
+      },
+      "laura": {
+        "name": "Laura",
+        "caption": "Systems Engineering Student"
+      }
+    }
   }
 }

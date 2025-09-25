@@ -33,5 +33,35 @@
     "privacy": "Política de Privacidad",
     "terms": "Términos de Uso",
     "support": "Soporte"
-  }
+  },
+ "monitors": {
+    "title": "Monitores de Laboratorio",
+    "students": {
+      "david": {
+        "name": "David Salamanca",
+        "caption": "Estudiante de Ingeniería de Sistemas"
+      },
+      "ruge": {
+        "name": "Daniel Ruge",
+        "caption": "Estudiante de Ingeniería de Sistemas"
+      },
+      "tulio": {
+        "name": "Tulio Riaño",
+        "caption": "Estudiante de Ingeniería de Sistemas"
+      },
+      "sergio": {
+        "name": "Sergio",
+        "caption": "Estudiante de Ingeniería de Sistemas"
+      },
+      "maria": {
+        "name": "María",
+        "caption": "Estudiante de Ingeniería de Sistemas"
+      },
+      "laura": {
+        "name": "Laura",
+        "caption": "Estudiante de Ingeniería de Sistemas"
+      }
+    }
 }
+}
+

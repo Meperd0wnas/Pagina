@@ -6,16 +6,16 @@ export default function MonitorsPage() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t("navbar.monitors", "Monitores")} - Escuela Colombiana de Ingeniería Julio Garavito`;
+    document.title = `${t("navbar.monitors", "Monitors")} - Escuela Colombiana de Ingeniería Julio Garavito`;
   }, [t]);
 
   const monitors = [
-    { id: 1, image: "/images/monitors/david.jpg", name: "David Salamanca", caption: "Estudiante Ingeniería de Sistemas" },
-    { id: 2, image: "/images/monitors/ruge.jpg", name: "Daniel Ruge", caption: "Estudiante Ingeniería de Sistemas" },
-    { id: 3, image: "/images/monitors/tulio.jpg", name: "Tulio Riaño", caption: "Estudiante Ingeniería de Sistemas" },
-    { id: 4, image: "/images/monitors/sergio.jpg", name: "Sergio", caption: "Estudiante Ingeniería de Sistemas" },
-    { id: 5, image: "/images/monitors/maria.jpg", name: "María", caption: "Estudiante Ingeniería de Sistemas" },
-    { id: 6, image: "/images/monitors/laura.jpg", name: "Laura", caption: "Estudiante Ingeniería de Sistemas" },
+    { id: 1, key: "david", image: "/images/monitors/david.jpg" },
+    { id: 2, key: "ruge", image: "/images/monitors/ruge.jpg" },
+    { id: 3, key: "tulio", image: "/images/monitors/tulio.jpg" },
+    { id: 4, key: "sergio", image: "/images/monitors/sergio.jpg" },
+    { id: 5, key: "maria", image: "/images/monitors/maria.jpg" },
+    { id: 6, key: "laura", image: "/images/monitors/laura.jpg" }
   ];
 
   return (
@@ -24,7 +24,7 @@ export default function MonitorsPage() {
       className="relative bg-white min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 py-16 pt-20"
     >
       <h2 className="text-3xl sm:text-4xl font-extrabold text-center bg-gradient-to-r from-[#00814b] to-green-600 bg-clip-text text-transparent mb-10">
-        {t("monitors.title", "Monitores de Laboratorio")}
+        {t("monitors.title")}
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 w-full max-w-6xl">
@@ -36,18 +36,18 @@ export default function MonitorsPage() {
               <div className="absolute inset-0 backface-hidden rounded-xl overflow-hidden">
                 <img
                   src={monitor.image}
-                  alt={monitor.name}
+                  alt={t(`monitors.students.${monitor.key}.name`)}
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-3 left-3 bg-gradient-to-r from-[#00814b] to-green-600 text-white text-sm font-bold px-3 py-1 rounded-md">
-                  {monitor.name}
+                  {t(`monitors.students.${monitor.key}.name`)}
                 </div>
               </div>
 
               {/* Reverso */}
               <div className="absolute inset-0 bg-[#00814b] text-white flex flex-col items-center justify-center text-center px-4 rounded-xl backface-hidden rotate-y-180">
-                <p className="text-lg font-semibold">{monitor.name}</p>
-                <p className="text-sm mt-2">{monitor.caption}</p>
+                <p className="text-lg font-semibold">{t(`monitors.students.${monitor.key}.name`)}</p>
+                <p className="text-sm mt-2">{t(`monitors.students.${monitor.key}.caption`)}</p>
               </div>
             </div>
           </div>
@@ -63,4 +63,5 @@ export default function MonitorsPage() {
     </section>
   );
 }
+
 
