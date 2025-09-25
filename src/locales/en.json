@@ -4,7 +4,20 @@
     "description": "High-level technology for students of Systems Engineering, Statistics, AI, and Cybersecurity.",
     "cta": "View Labs",
     "learnMore": "Learn More",
-    "videoAlt": "Background video"
+    "videoAlt": "Background video",
+    "labsTitle": "Our Laboratories",
+    "labInfo": "General information about the lab: location, main equipment, and research areas."
+  },
+  "labs": {
+    "interactiva": "Interactive Classroom",
+    "videojuegos": "Augmented Reality & Game Development Lab",
+    "fundamentos": "Computer Fundamentals Lab",
+    "estrategias": "Digital Strategies Classroom for IT Training",
+    "practicas": "Open Lab & Testing",
+    "multimedia": "Multimedia & Mobile Classroom",
+    "redes": "Computer Networks Lab",
+    "plataformas": "Computational Platforms Lab",
+    "software": "Software Engineering Lab"
   },
   "navbar": {
     "title": "Computer Lab",
@@ -20,13 +33,5 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "support": "Support"
-  },
-  "labs": {
-    "title": "Our Laboratories",
-    "lab1": "Laboratory 1",
-    "lab2": "Laboratory 2",
-    "lab3": "Laboratory 3",
-    "lab4": "Laboratory 4"
   }
 }
-
