@@ -45,18 +45,19 @@ export default function Navbar() {
             <span className="hover:text-gray-200 transition cursor-pointer">
               {t("navbar.labs")}
             </span>
-            {/* Submenu */}
-            <div className="absolute left-0 hidden group-hover:block bg-gradient-to-b from-white to-gray-100 text-black mt-2 rounded-2xl shadow-2xl w-72 p-3 z-40">
-              {labs.map((lab) => (
-                <Link
-                  key={lab.id}
-                  to={lab.path}
-                  className="block px-4 py-3 rounded-xl text-base font-medium hover:bg-green-100 hover:text-green-700 transition-all duration-200"
-                >
-                  {t(`labs.${lab.id}`)}
-                </Link>
-              ))}
-            </div>
+          {/* Submenu */}
+          <div className="absolute left-0 hidden group-hover:block bg-gradient-to-b from-white to-gray-100 text-black mt-2 shadow-2xl w-80 p-2 z-40">
+            {labs.map((lab) => (
+              <Link
+                key={lab.id}
+                to={lab.path}
+                className="block px-6 py-4 text-lg font-semibold hover:bg-green-100 hover:text-green-700 transition-all duration-200"
+              >
+                {t(`labs.${lab.id}`)}
+              </Link>
+            ))}
+          </div>
+
           </div>
 
           <Link to="/monitors" className="hover:text-gray-200 transition">
