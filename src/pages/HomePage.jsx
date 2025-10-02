@@ -109,65 +109,71 @@ export default function HomePage() {
         </div>
       </main>
 
-      {/* Sección de Laboratorios */}
-      <section
-        id="laboratories"
-        className="relative min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 py-20 bg-gray-100"
-      >
-        {/* Contenido del carrusel */}
-        <div className="relative z-10 w-full max-w-7xl">
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-center bg-gradient-to-r from-[#00814b] to-green-600 bg-clip-text text-transparent mb-14">
-            {t("homepage.labsTitle")}
-          </h2>
+    {/* Sección de Laboratorios */}
+    <section
+      id="laboratories"
+      className="relative min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 py-20 bg-fixed bg-center bg-cover"
+      style={{ backgroundImage: "url('/images/labs/portada2.jpg')" }}
+    >
 
-          <div className="w-full mx-auto relative px-2 sm:px-4">
-            <Slider {...sliderSettings}>
-              {labs.map((lab) => (
-                <div key={lab.id} className="px-4 sm:px-6">
-                  <div className="group relative overflow-hidden shadow-2xl bg-white">
+
+      {/* Contenido del carrusel */}
+      <div className="relative z-10 w-full max-w-7xl">
+        <h2 className="text-4xl sm:text-5xl font-extrabold text-center bg-gradient-to-r from-[#00814b] to-green-600 bg-clip-text text-transparent mb-14">
+          {t("homepage.labsTitle")}
+        </h2>
+
+        <div className="w-full mx-auto relative px-2 sm:px-4">
+          <Slider {...sliderSettings}>
+            {labs.map((lab) => (
+              <div key={lab.id} className="px-4 sm:px-6">
+                <div className="group relative overflow-hidden shadow-2xl bg-white">
+                  <div
+                    className="relative w-full aspect-[16/9] cursor-pointer"
+                    onClick={() =>
+                      setActiveOverlay(lab.id === activeOverlay ? null : lab.id)
+                    }
+                  >
+                    <img
+                      src={lab.image}
+                      alt={t(`labs.${lab.key}`)}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    />
+
+                    {/* Overlay interno */}
                     <div
-                      className="relative w-full aspect-[16/9] cursor-pointer"
-                      onClick={() =>
-                        setActiveOverlay(lab.id === activeOverlay ? null : lab.id)
-                      }
+                      className={`absolute inset-0 bg-gradient-to-r from-[#00814b] to-green-600 text-white flex items-center justify-center px-8 text-center transition-transform duration-700 ease-in-out
+                        md:group-hover:translate-y-0
+                        ${
+                          activeOverlay === lab.id
+                            ? "translate-y-0"
+                            : "translate-y-full"
+                        }`}
                     >
-                      <img
-                        src={lab.image}
-                        alt={t(`labs.${lab.key}`)}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                      />
-
-                      {/* Overlay interno */}
-                      <div
-                        className={`absolute inset-0 bg-gradient-to-r from-[#00814b] to-green-600 text-white flex items-center justify-center px-8 text-center transition-transform duration-700 ease-in-out
-                          md:group-hover:translate-y-0
-                          ${
-                            activeOverlay === lab.id
-                              ? "translate-y-0"
-                              : "translate-y-full"
-                          }`}
-                      >
-                        <div>
-                          <h3 className="text-3xl md:text-4xl font-bold mb-6">
-                            {t(`labs.${lab.key}`)}
-                          </h3>
-                          <p className="text-base md:text-lg">
-                            {t("homepage.labInfo")}
-                          </p>
-                        </div>
+                      <div>
+                        <h3 className="text-3xl md:text-4xl font-bold mb-6">
+                          {t(`labs.${lab.key}`)}
+                        </h3>
+                        <p className="text-base md:text-lg">
+                          {t("homepage.labInfo")}
+                        </p>
                       </div>
                     </div>
                   </div>
-
-                  <p className="text-center mt-6 text-xl md:text-2xl font-semibold text-white bg-gradient-to-r from-[#00814b] to-green-600 py-3 px-4 shadow-md group-hover:opacity-0 transition-opacity duration-300">
-                    {t(`labs.${lab.key}`)}
-                  </p>
                 </div>
-              ))}
-            </Slider>
-          </div>
+
+                <p className="text-center mt-6 text-xl md:text-2xl font-semibold text-white bg-gradient-to-r from-[#00814b] to-green-600 py-3 px-4 shadow-md group-hover:opacity-0 transition-opacity duration-300">
+                  {t(`labs.${lab.key}`)}
+                </p>
+              </div>
+            ))}
+          </Slider>
         </div>
-      </section>
+      </div>
+    </section>
+
+
+
 
 
 
