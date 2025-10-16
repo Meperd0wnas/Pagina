@@ -3,6 +3,10 @@ import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useNavigate } from "react-router-dom";
+import { labs } from "../data/labs";
+
+
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -130,9 +134,8 @@ export default function HomePage() {
                 <div className="group relative overflow-hidden shadow-2xl bg-white">
                   <div
                     className="relative w-full aspect-[16/9] cursor-pointer"
-                    onClick={() =>
-                      setActiveOverlay(lab.id === activeOverlay ? null : lab.id)
-                    }
+                    onClick={() => navigate(`/labs/${lab.key}`)}
+
                   >
                     <img
                       src={lab.image}

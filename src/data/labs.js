@@ -1,16 +1,12 @@
+// src/data/labs.js
 export const labs = [
-    {
-      id: "software",
-      name: "Laboratorio de Ingeniería de Software",
-      description: "Espacio para proyectos de desarrollo y pruebas de software.",
-      image: "/images/software.jpg",
-    },
-    {
-      id: "redes",
-      name: "Laboratorio de Redes",
-      description: "Equipado con routers, switches y sistemas de comunicación.",
-      image: "/images/redes.jpg",
-    },
-    // se agregan más laboratorios aquí
-  ];
-  
+  { id: "interactiva", path: "/labs/interactiva", name: "Interactiva" },
+  { id: "videojuegos", path: "/labs/videojuegos", name: "Videojuegos" },
+  { id: "fundamentos", path: "/labs/fundamentos", name: "Fundamentos" },
+  { id: "estrategias", path: "/labs/estrategias", name: "Estrategias" },
+  { id: "practicas", path: "/labs/practicas", name: "Prácticas" },
+  { id: "multimedia", path: "/labs/multimedia", name: "Multimedia" },
+  { id: "redes", path: "/labs/redes", name: "Redes" },
+  { id: "plataformas", path: "/labs/plataformas", name: "Plataformas" },
+  { id: "software", path: "/labs/software", name: "Software" },
+];
