@@ -104,7 +104,7 @@ export default function HomePage() {
 
           <div className="mt-8 flex flex-col md:flex-row justify-center gap-4">
             <button
-              onClick={scrollToLabs} // ✅ Usamos la nueva función con animación
+              onClick={scrollToLabs} 
               className="w-full md:w-auto px-6 py-3 rounded-full bg-[#00814b] hover:bg-[#0a9a5e] text-white font-semibold transition text-center"
             >
               {t("homepage.cta")}
@@ -124,9 +124,8 @@ export default function HomePage() {
       <section
         id="laboratories"
         className="relative min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 py-20 bg-fixed bg-center bg-cover"
-        style={{ backgroundImage: "url('/images/labs/portada2.jpg')" }}
       >
-        <div className="relative z-10 w-full max-w-7xl">
+        <div className="relative z-10 w-full max-w-[1600px]">
           <h2 className="text-4xl sm:text-5xl font-extrabold text-center bg-gradient-to-r from-[#00814b] to-green-600 bg-clip-text text-transparent mb-14">
             {t("homepage.labsTitle")}
           </h2>
@@ -138,7 +137,7 @@ export default function HomePage() {
                   <div className="group relative overflow-hidden shadow-2xl bg-white">
                     <div
                       className="relative w-full aspect-[16/9] cursor-pointer"
-                      onClick={() => navigate(`/labs/${lab.key}`)} // ✅ Navegación al hacer clic
+                      onClick={() => navigate(`/labs/${lab.key}`)} 
                     >
                       <img
                         src={lab.image}
