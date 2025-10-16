@@ -4,14 +4,30 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useNavigate } from "react-router-dom";
+import { animate } from "framer-motion";
 
 export default function HomePage() {
   const { t } = useTranslation();
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
 
   useEffect(() => {
     document.title = `${t("navbar.title")} - Escuela Colombiana de Ingeniería Julio Garavito`;
   }, [t]);
+
+  // ✅ Animación suave al hacer scroll
+  const scrollToLabs = () => {
+    const target = document.getElementById("laboratories");
+    if (target) {
+      const y = target.getBoundingClientRect().top + window.scrollY;
+      animate(window.scrollY, y, {
+        type: "spring",
+        stiffness: 80,
+        damping: 20,
+        duration: 1.5,
+        onUpdate: (latest) => window.scrollTo(0, latest),
+      });
+    }
+  };
 
   const labs = [
     { id: 1, image: "../../public/images/labs/interactiva.jpg", key: "interactiva" },
@@ -42,13 +58,6 @@ export default function HomePage() {
   };
 
   const [activeOverlay, setActiveOverlay] = useState(null);
-
-  const handleScroll = (selector) => {
-    const element = document.querySelector(selector);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
     <>
@@ -95,7 +104,7 @@ export default function HomePage() {
 
           <div className="mt-8 flex flex-col md:flex-row justify-center gap-4">
             <button
-              onClick={() => handleScroll("#laboratories")}
+              onClick={scrollToLabs} // ✅ Usamos la nueva función con animación
               className="w-full md:w-auto px-6 py-3 rounded-full bg-[#00814b] hover:bg-[#0a9a5e] text-white font-semibold transition text-center"
             >
               {t("homepage.cta")}
@@ -129,7 +138,7 @@ export default function HomePage() {
                   <div className="group relative overflow-hidden shadow-2xl bg-white">
                     <div
                       className="relative w-full aspect-[16/9] cursor-pointer"
-                      onClick={() => navigate(`/labs/${lab.key}`)} // ✅ navegación al hacer clic
+                      onClick={() => navigate(`/labs/${lab.key}`)} // ✅ Navegación al hacer clic
                     >
                       <img
                         src={lab.image}
@@ -166,3 +175,4 @@ export default function HomePage() {
     </>
   );
 }
+
