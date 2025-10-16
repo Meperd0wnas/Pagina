@@ -1,32 +1,19 @@
 import React, { useState, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import { labs } from "../data/labs"; // 👈 importa tu lista de laboratorios
 
 export default function Navbar() {
   const { t, i18n } = useTranslation();
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // menú móvil
-  const [isLabsOpen, setIsLabsOpen] = useState(false); // menú Labs
-  const hoverTimeout = useRef(null); // referencia para el delay
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isLabsOpen, setIsLabsOpen] = useState(false);
+  const hoverTimeout = useRef(null);
 
-  const labs = [
-    { id: "interactiva", path: "/labs/interactiva" },
-    { id: "videojuegos", path: "/labs/videojuegos" },
-    { id: "fundamentos", path: "/labs/fundamentos" },
-    { id: "estrategias", path: "/labs/estrategias" },
-    { id: "practicas", path: "/labs/practicas" },
-    { id: "multimedia", path: "/labs/multimedia" },
-    { id: "redes", path: "/labs/redes" },
-    { id: "plataformas", path: "/labs/plataformas" },
-    { id: "software", path: "/labs/software" },
-  ];
-
-  // Abre el menú Labs
   const handleLabsEnter = () => {
     clearTimeout(hoverTimeout.current);
     setIsLabsOpen(true);
   };
 
-  // Cierra el menú Labs con delay
   const handleLabsLeave = () => {
     hoverTimeout.current = setTimeout(() => {
       setIsLabsOpen(false);
@@ -67,8 +54,8 @@ export default function Navbar() {
             {isLabsOpen && (
               <div
                 className="absolute left-0 bg-gradient-to-b from-white to-gray-100 text-black mt-2 shadow-2xl w-80 p-2 z-40 rounded-lg"
-                onMouseEnter={handleLabsEnter} // mantiene abierto al entrar
-                onMouseLeave={handleLabsLeave} // inicia delay al salir
+                onMouseEnter={handleLabsEnter}
+                onMouseLeave={handleLabsLeave}
               >
                 {labs.map((lab) => (
                   <Link
@@ -92,7 +79,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* Botones de idioma Desktop */}
+        {/* Idiomas Desktop */}
         <div className="hidden md:flex justify-end space-x-2">
           <button
             onClick={() => i18n.changeLanguage("es")}

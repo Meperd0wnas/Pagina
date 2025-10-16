@@ -29,7 +29,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/monitors" element={<MonitorsPage />} />
 
-          {/* ✅ Rutas de los laboratorios */}
+          {/* Rutas de los laboratorios */}
           <Route path="/labs/interactiva" element={<InteractivaPage />} />
           <Route path="/labs/videojuegos" element={<VideojuegosPage />} />
           <Route path="/labs/fundamentos" element={<FundamentosPage />} />
