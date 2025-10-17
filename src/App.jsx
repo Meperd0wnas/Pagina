@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import MonitorsPage from "./pages/MonitorsPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import LabPage from "./pages/lab/LabPage";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/monitors" element={<MonitorsPage />} />
+          <Route path="/lab/:labId" element={<LabPage />} />
         </Routes>
       </main>
 

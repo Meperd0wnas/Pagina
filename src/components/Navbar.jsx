@@ -9,15 +9,15 @@ export default function Navbar() {
   const hoverTimeout = useRef(null); // referencia para el delay
 
   const labs = [
-    { id: "interactiva", path: "/labs/interactiva" },
-    { id: "videojuegos", path: "/labs/videojuegos" },
-    { id: "fundamentos", path: "/labs/fundamentos" },
-    { id: "estrategias", path: "/labs/estrategias" },
-    { id: "practicas", path: "/labs/practicas" },
-    { id: "multimedia", path: "/labs/multimedia" },
-    { id: "redes", path: "/labs/redes" },
-    { id: "plataformas", path: "/labs/plataformas" },
-    { id: "software", path: "/labs/software" },
+    { id: "interactiva", path: "/lab/interactive" },
+    { id: "videojuegos", path: "/lab/games" },
+    { id: "fundamentos", path: "/lab/fundamentals" },
+    { id: "estrategias", path: "/lab/strategies" },
+    { id: "practicas", path: "/lab/practices" },
+    { id: "multimedia", path: "/lab/multimedia" },
+    { id: "redes", path: "/lab/networks" },
+    { id: "plataformas", path: "/lab/platforms" },
+    { id: "software", path: "/lab/software" },
   ];
 
   // Abre el menú Labs

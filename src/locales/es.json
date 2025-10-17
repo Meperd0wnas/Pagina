@@ -17,7 +17,13 @@
     "multimedia": "Aula Multimedia y Móviles",
     "redes": "Redes de Computadores",
     "plataformas": "Plataformas Computacionales",
-    "software": "Ingeniería de Software"
+    "software": "Ingeniería de Software",
+    "schedule": "Horario",
+    "phone": "Teléfono",
+    "equipment": "Equipamiento",
+    "purpose": "Propósito",
+    "softwaresInstalled": "Software Instalado",
+    "ubi": "Ubicación"
   },
   "navbar": {
     "title": "Laboratorio de informática",
@@ -64,4 +70,3 @@
     }
 }
 }
-

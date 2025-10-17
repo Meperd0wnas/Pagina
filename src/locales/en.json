@@ -17,7 +17,13 @@
     "multimedia": "Multimedia & Mobile Classroom",
     "redes": "Computer Networks Lab",
     "plataformas": "Computational Platforms Lab",
-    "software": "Software Engineering Lab"
+    "software": "Software Engineering Lab",
+    "schedule": "Schedule",
+    "phone": "Phone",
+    "equipment": "Equipment",
+    "purpose": "Purpose",
+    "softwaresInstalled": "Installed Software",
+    "ubi": "Location"
   },
   "navbar": {
     "title": "Computer Lab",
