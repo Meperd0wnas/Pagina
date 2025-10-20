@@ -20,6 +20,20 @@
     "software": "Ingeniería de Software",
     "C1-205A" : "C1-205A"
   },
+
+    "labels": {
+    "location": "Ubicación",
+    "phone": "Teléfono",
+    "schedule": "Horario"
+  },
+  "descriptions": {
+    "interactiva": "Aula Interactiva",
+    "interactiva_description": "Esta aula busca favorecer la aplicación de nuevas metodologías de enseñanza/aprendizaje centradas en el estudiante. Además, ofrece a estudiantes y profesores un espacio especializado para trabajos en grupo y desarrollo de proyectos de ingeniería.",
+    "interactiva_location": "Bloque C segundo piso, salón C1-204.",
+    "interactiva_schedule1": "Lunes a viernes 7:00 am a 7:00 pm (jornada continua)",
+    "interactiva_schedule2": "Sábados 7:00 am a 1:00 pm"
+  },
+
   "navbar": {
     "title": "Laboratorio de informática",
     "logo": "Laboratorio IS",
