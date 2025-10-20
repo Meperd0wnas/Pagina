@@ -20,6 +20,19 @@
     "software": "Software Engineering Lab",
     "C1-205A" : "C1-205A"
   },
+    "labels": {
+    "location": "Location",
+    "phone": "Phone",
+    "schedule": "Schedule"
+  },
+  "descriptions": {
+    "interactiva": "Interactive Classroom",
+    "interactiva_description": "This classroom promotes the application of new teaching and learning methodologies focused on students. It also offers a specialized space for group work and engineering project development.",
+    "interactiva_location": "Building C, second floor, room C1-204.",
+    "interactiva_schedule1": "Monday to Friday 7:00 am to 7:00 pm (continuous session)",
+    "interactiva_schedule2": "Saturday 7:00 am to 1:00 pm"
+  },
+
   "navbar": {
     "title": "Computer Lab",
     "logo": "IS Laboratory",
