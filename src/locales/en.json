@@ -17,7 +17,8 @@
     "multimedia": "Multimedia & Mobile Classroom",
     "redes": "Computer Networks Lab",
     "plataformas": "Computational Platforms Lab",
-    "software": "Software Engineering Lab"
+    "software": "Software Engineering Lab",
+    "C1-205A" : "C1-205A"
   },
   "navbar": {
     "title": "Computer Lab",

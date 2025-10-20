@@ -9,6 +9,7 @@ export const labs = [
   { id: "redes", path: "/labs/redes" },
   { id: "plataformas", path: "/labs/plataformas" },
   { id: "software", path: "/labs/software" },
+  { id: "C1-205A", path: "/labs/C1205A" },
 ];
 
   

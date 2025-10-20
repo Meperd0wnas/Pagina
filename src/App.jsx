@@ -16,6 +16,7 @@ import MultimediaPage from "./pages/labs/MultimediaPage";
 import RedesPage from "./pages/labs/RedesPage";
 import PlataformasPage from "./pages/labs/PlataformasPage";
 import SoftwarePage from "./pages/labs/SoftwarePage";
+import C1205APage from "./pages/labs/C1205APage";
 
 export default function App() {
   return (
@@ -39,6 +40,7 @@ export default function App() {
           <Route path="/labs/redes" element={<RedesPage />} />
           <Route path="/labs/plataformas" element={<PlataformasPage />} />
           <Route path="/labs/software" element={<SoftwarePage />} />
+          <Route path="/labs/c1205a" element={<C1205APage />} />
         </Routes>
       </main>
 
