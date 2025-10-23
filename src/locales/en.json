@@ -30,7 +30,13 @@
     "interactiva_description": "This classroom promotes the application of new teaching and learning methodologies focused on students. It also offers a specialized space for group work and engineering project development.",
     "interactiva_location": "Building C, second floor, room C1-204.",
     "interactiva_schedule1": "Monday to Friday 7:00 am to 7:00 pm (continuous session)",
-    "interactiva_schedule2": "Saturday 7:00 am to 1:00 pm"
+    "interactiva_schedule2": "Saturday 7:00 am to 1:00 pm",
+
+    "videojuegos_description": "Provides students and professors with a specialized space to work on topics related to augmented reality and video game development. It features furniture that facilitates teamwork and allows for various spatial configurations. The lab includes Linux and Windows environments, specialized software, and supports the creation of customized virtual machines for greater flexibility in experimental setups. Additionally, it offers side spaces for thesis and research project development. Finally, it can be combined with the Computer Fundamentals Lab to increase capacity.",
+    "videojuegos_location": "Block H, third floor, room H-302.",
+    "videojuegos_phone": "+57 (1) 6683600 Ext: 323",
+    "videojuegos_schedule1": "Monday to Friday, 7:00 am to 7:00 pm",
+    "videojuegos_schedule2": "Saturdays, 7:00 am to 1:00 pm"
   },
 
   "navbar": {

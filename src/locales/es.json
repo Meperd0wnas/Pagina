@@ -31,7 +31,13 @@
     "interactiva_description": "Esta aula busca favorecer la aplicación de nuevas metodologías de enseñanza/aprendizaje centradas en el estudiante. Además, ofrece a estudiantes y profesores un espacio especializado para trabajos en grupo y desarrollo de proyectos de ingeniería.",
     "interactiva_location": "Bloque C segundo piso, salón C1-204.",
     "interactiva_schedule1": "Lunes a viernes 7:00 am a 7:00 pm (jornada continua)",
-    "interactiva_schedule2": "Sábados 7:00 am a 1:00 pm"
+    "interactiva_schedule2": "Sábados 7:00 am a 1:00 pm",
+
+    "videojuegos_description": "Ofrece a estudiantes y profesores del Programa un espacio especializado para trabajo en temas relacionados con realidad aumentada y desarrollo de videojuegos. Cuenta con un mobiliario que facilita el trabajo en equipo permitiendo generar ambientes con diferentes distribuciones. Dispone de entornos Linux y Windows, así como software especializado, y permite la creación de máquinas virtuales personalizadas para dar mayor flexibilidad a los montajes requeridos. Además, cuenta con espacios laterales que pueden ser utilizados para desarrollo de proyectos de grado e investigación. Finalmente, se puede unir con el Laboratorio de Fundamentos de Computación para aumentar su capacidad.",
+    "videojuegos_location": "Bloque H tercer piso, salón H-302.",
+    "videojuegos_phone": "+57 (1) 6683600 Ext: 323",
+    "videojuegos_schedule1": "Lunes a viernes 7:00 am a 7:00 pm",
+    "videojuegos_schedule2": "Sábados 7:00 am a 1:00 pm"
   },
 
   "navbar": {
