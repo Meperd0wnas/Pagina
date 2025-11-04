@@ -37,7 +37,26 @@
     "videojuegos_location": "Bloque H tercer piso, salón H-302.",
     "videojuegos_phone": "+57 (1) 6683600 Ext: 323",
     "videojuegos_schedule1": "Lunes a viernes 7:00 am a 7:00 pm",
-    "videojuegos_schedule2": "Sábados 7:00 am a 1:00 pm"
+    "videojuegos_schedule2": "Sábados 7:00 am a 1:00 pm",
+
+    "fundamentos_description": "Ofrece a estudiantes y profesores del programa un espacio especializado para el trabajo colaborativo y el desarrollo de actividades individuales y grupales relacionadas con los fundamentos de la computación. El mobiliario está diseñado para organizar diferentes esquemas de trabajo y permite la posibilidad de trabajar con y sin equipos de cómputo, facilitando el desarrollo de trabajos de conceptualización de soluciones a problemas y su posterior implementación mediante herramientas computacionales. Cuenta con ambientes Linux y Windows mediante el Subsistema de Windows para Linux (WSL), con herramientas de diseño y desarrollo propias del área, y permite la creación de máquinas virtuales personalizadas para brindar mayor flexibilidad en los montajes requeridos. Además, permite contar con un espacio de mayor capacidad gracias a la posibilidad de integrarse con el Laboratorio de Realidad Aumentada y Desarrollo de Videojuegos.",
+    "fundamentos_location": "Bloque H tercer piso, salón H-301.",
+    "fundamentos_phone": "Pendiente",
+    "fundamentos_schedule1": "Lunes a viernes 7:00 am a 7:00 pm",
+    "fundamentos_schedule2": "Sábados 7:00 am a 1:00 pm",
+
+    "estrategias_description": "Es un espacio dedicado a la enseñanza de habilidades y competencias digitales enfocadas en el campo de la informática. En él se brindan herramientas y estrategias para que los estudiantes puedan mejorar su rendimiento académico y profesional en este ámbito. La formación se basa en la utilización de tecnología y recursos digitales de última generación.",
+    "estrategias_location": "Bloque D tercer piso, salón D-310",
+    "estrategias_phone": "+57 (1) 6683600 Ext: 246",
+    "estrategias_schedule1": "Lunes a viernes 7:00 am a 7:00 pm (jornada continua)",
+    "estrategias_schedule2": "Sábados 7:00 am a 1:00 pm",
+
+    "practicas_description": "Laboratorio usado por los estudiantes para trabajar libremente en las distintas áreas académicas de Ingeniería de Sistemas. Cuenta con una zona de portátiles donde el estudiante puede ubicarse con su portátil y tener acceso alámbrico o inalámbrico a la red del laboratorio.",
+    "practicas_location": "Bloque B primer piso",
+    "practicas_phone": "+57 (1) 6683600 Ext: 246",
+    "practicas_schedule1": "Lunes a viernes 7:00 am a 7:00 pm (jornada continua)",
+    "practicas_schedule2": "Sábados 7:00 am a 1:00 pm"
+
   },
 
   "navbar": {

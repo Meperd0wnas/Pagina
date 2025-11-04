@@ -26,7 +26,7 @@
     "schedule": "Schedule"
   },
   "descriptions": {
-    "interactiva": "Interactive Classroom",
+
     "interactiva_description": "This classroom promotes the application of new teaching and learning methodologies focused on students. It also offers a specialized space for group work and engineering project development.",
     "interactiva_location": "Building C, second floor, room C1-204.",
     "interactiva_schedule1": "Monday to Friday 7:00 am to 7:00 pm (continuous session)",
@@ -36,7 +36,26 @@
     "videojuegos_location": "Block H, third floor, room H-302.",
     "videojuegos_phone": "+57 (1) 6683600 Ext: 323",
     "videojuegos_schedule1": "Monday to Friday, 7:00 am to 7:00 pm",
-    "videojuegos_schedule2": "Saturdays, 7:00 am to 1:00 pm"
+    "videojuegos_schedule2": "Saturdays, 7:00 am to 1:00 pm",
+
+    "fundamentos_description": "Provides students and professors with a specialized space for collaborative work and the development of individual and group activities related to computer fundamentals. The furniture is designed to accommodate different work configurations and allows for activities with or without computers, supporting the conceptualization of problem-solving approaches and their implementation through computational tools. The lab features Linux and Windows environments through the Windows Subsystem for Linux (WSL), with design and development tools specific to the field, and supports the creation of customized virtual machines for greater flexibility in required setups. Additionally, it can be integrated with the Augmented Reality and Game Development Lab to offer a larger, more versatile workspace.",
+    "fundamentos_location": "Block H, third floor, room H-301.",
+    "fundamentos_phone": "Pending",
+    "fundamentos_schedule1": "Monday to Friday, 7:00 am to 7:00 pm",
+    "fundamentos_schedule2": "Saturdays, 7:00 am to 1:00 pm",
+
+    "estrategias_description": "A space dedicated to teaching digital skills and competencies focused on the field of computer science. It provides tools and strategies for students to enhance their academic and professional performance in this area. The training is based on the use of state-of-the-art technology and digital resources.",
+    "estrategias_location": "Building D, third floor, room D-310",
+    "estrategias_phone": "+57 (1) 6683600 Ext: 246",
+    "estrategias_schedule1": "Monday to Friday 7:00 am to 7:00 pm (continuous session)",
+    "estrategias_schedule2": "Saturdays 7:00 am to 1:00 pm",
+
+    "practicas_description": "A laboratory used by students to work freely in different academic areas of Systems Engineering. It includes a laptop area where students can sit with their own devices and have wired or wireless access to the lab network.",
+    "practicas_location": "Building B, first floor",
+    "practicas_phone": "+57 (1) 6683600 Ext: 246",
+    "practicas_schedule1": "Monday to Friday 7:00 am to 7:00 pm (continuous session)",
+    "practicas_schedule2": "Saturdays 7:00 am to 1:00 pm"
+
   },
 
   "navbar": {
