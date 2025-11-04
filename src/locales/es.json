@@ -55,7 +55,20 @@
     "practicas_location": "Bloque B primer piso",
     "practicas_phone": "+57 (1) 6683600 Ext: 246",
     "practicas_schedule1": "Lunes a viernes 7:00 am a 7:00 pm (jornada continua)",
-    "practicas_schedule2": "Sábados 7:00 am a 1:00 pm"
+    "practicas_schedule2": "Sábados 7:00 am a 1:00 pm",
+
+    "multimedia_description": "Ofrece a estudiantes y profesores del Programa un espacio especializado para trabajo en el área de aplicaciones móviles, interacción humano-computador y desarrollos multimedia. Cuenta con ambiente Windows y permite la creación de máquinas virtuales personalizadas para dar mayor flexibilidad a los montajes requeridos. Además, dispone de un video beam y un televisor de 50 pulgadas para la proyección de los equipos.",
+    "multimedia_location": "Bloque C segundo piso, salón C1-205B.",
+    "multimedia_phone": "+57 (1) 6683600 Ext: 293",
+    "multimedia_schedule1": "Lunes a viernes 7:00 am a 7:00 pm (jornada continua)",
+    "multimedia_schedule2": "Sábados 7:00 am a 1:00 pm",
+
+    "redes_description": "Ofrece a estudiantes y profesores del Programa un espacio especializado para prácticas y montajes de redes de computadores y seguridad informática a través de simuladores y equipos físicos. Cuenta con ambiente Linux y Windows y máquinas virtuales preinstaladas para dar mayor flexibilidad a los montajes requeridos. Hace parte del Laboratorio de Infraestructura computacional junto con el laboratorio de Plataformas computacionales, los cuales pueden integrarse para facilitar el trabajo en grupos grandes. También es usado para los cursos de la academia local CISCO de la Escuela Colombiana de Ingeniería Julio Garavito.",
+    "redes_location": "Bloque B primer piso.",
+    "redes_phone": "+57 (1) 6683600",
+    "redes_schedule1": "Lunes a viernes 7:00 am a 7:00 pm (jornada continua)",
+    "redes_schedule2": "Sábados 7:00 am a 1:00 pm",
+    "redes_equipment": "HP ProDesk 600 G1 SFF (16 equipos) — Intel Core i7, 16 GB RAM, 500 GB disco duro"
 
   },
 

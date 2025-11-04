@@ -54,7 +54,21 @@
     "practicas_location": "Building B, first floor",
     "practicas_phone": "+57 (1) 6683600 Ext: 246",
     "practicas_schedule1": "Monday to Friday 7:00 am to 7:00 pm (continuous session)",
-    "practicas_schedule2": "Saturdays 7:00 am to 1:00 pm"
+    "practicas_schedule2": "Saturdays 7:00 am to 1:00 pm",
+
+    "multimedia_description": "Provides students and professors with a specialized space for work in mobile applications, human-computer interaction, and multimedia development. The lab runs on a Windows environment and supports the creation of customized virtual machines for greater flexibility in configurations. It is also equipped with a video projector and a 50-inch TV for device projection.",
+    "multimedia_location": "Block C, second floor, room C1-205B.",
+    "multimedia_phone": "+57 (1) 6683600 Ext: 293",
+    "multimedia_schedule1": "Monday to Friday 7:00 am to 7:00 pm (continuous session)",
+    "multimedia_schedule2": "Saturdays 7:00 am to 1:00 pm",
+
+    "redes_description": "Provides students and professors with a specialized space for network and cybersecurity practice using simulators and physical equipment. It includes both Linux and Windows environments with preinstalled virtual machines for flexible configurations. It is part of the Computational Infrastructure Laboratory along with the Computing Platforms Lab, which can be integrated for larger group work. It is also used for the local CISCO Academy courses at the Escuela Colombiana de Ingeniería Julio Garavito.",
+    "redes_location": "Block B, first floor.",
+    "redes_phone": "+57 (1) 6683600",
+    "redes_schedule1": "Monday to Friday 7:00 am to 7:00 pm (continuous session)",
+    "redes_schedule2": "Saturdays 7:00 am to 1:00 pm",
+    "redes_equipment": "HP ProDesk 600 G1 SFF (16 computers) — Intel Core i7, 16 GB RAM, 500 GB hard drive"
+  
 
   },
 
