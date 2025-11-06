@@ -6,11 +6,29 @@ export default function MonitorsPage() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = `${t(
-      "navbar.monitors",
-      "Monitors"
-    )} - Escuela Colombiana de Ingeniería Julio Garavito`;
+    document.title = `${t("navbar.monitors", "Personal")} - Escuela Colombiana de Ingeniería Julio Garavito`;
   }, [t]);
+
+  const staff = [
+    {
+      id: 1,
+      name: "Gerardo Ospina",
+      role: "Director de Laboratorio y Profesor",
+      image: "/images/staff/gerardo.jpg",
+    },
+    {
+      id: 2,
+      name: "Aurora León",
+      role: "Administradora Windows y Oracle",
+      image: "/images/staff/aurora.jpg",
+    },
+    {
+      id: 3,
+      name: "Sebastián",
+      role: "Administrador Linux y MySQL",
+      image: "/images/staff/sebastian.jpg",
+    },
+  ];
 
   const monitors = [
     { id: 1, key: "david", image: "/images/monitors/david.jpg" },
@@ -29,8 +47,40 @@ export default function MonitorsPage() {
       animate={{ opacity: 1 }}
       transition={{ duration: 1.2, ease: "easeOut" }}
     >
-      {/* Contenido */}
       <div className="relative z-10 w-full max-w-7xl">
+        {/* === SECCIÓN DE PERSONAL === */}
+        <h2 className="text-3xl sm:text-4xl font-extrabold text-center bg-gradient-to-r from-[#00814b] to-green-600 bg-clip-text text-transparent mb-10">
+          Personal
+        </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-5xl mx-auto mb-20">
+          {staff.map((person) => (
+            <div key={person.id} className="flex flex-col items-center text-center group">
+              <div className="relative w-full h-64 perspective shadow-lg">
+                <div className="relative w-full h-full transition-transform duration-500 transform-style-preserve-3d group-hover:rotate-y-180">
+                  {/* Frente */}
+                  <div className="absolute inset-0 backface-hidden overflow-hidden">
+                    <img
+                      src={person.image}
+                      alt={person.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  {/* Reverso */}
+                  <div className="absolute inset-0 bg-[#00814b] text-white flex flex-col items-center justify-center text-center px-4 backface-hidden rotate-y-180">
+                    <p className="text-lg font-semibold">{person.name}</p>
+                    <p className="text-sm mt-2">{person.role}</p>
+                  </div>
+                </div>
+              </div>
+              <p className="mt-3 text-lg font-semibold bg-gradient-to-r from-[#00814b] to-green-600 bg-clip-text text-transparent">
+                {person.name}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        {/* === SECCIÓN DE MONITORES === */}
         <h2 className="text-3xl sm:text-4xl font-extrabold text-center bg-gradient-to-r from-[#00814b] to-green-600 bg-clip-text text-transparent mb-10">
           {t("monitors.title")}
         </h2>
@@ -38,11 +88,8 @@ export default function MonitorsPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 w-full max-w-6xl mx-auto">
           {monitors.map((monitor) => (
             <div key={monitor.id} className="flex flex-col items-center text-center group">
-              
-              {/* Contenedor 3D */}
               <div className="relative w-full h-64 perspective shadow-lg">
                 <div className="relative w-full h-full transition-transform duration-500 transform-style-preserve-3d group-hover:rotate-y-180">
-                  
                   {/* Frente */}
                   <div className="absolute inset-0 backface-hidden overflow-hidden">
                     <img
@@ -51,7 +98,6 @@ export default function MonitorsPage() {
                       className="w-full h-full object-cover"
                     />
                   </div>
-
                   {/* Reverso */}
                   <div className="absolute inset-0 bg-[#00814b] text-white flex flex-col items-center justify-center text-center px-4 backface-hidden rotate-y-180">
                     <p className="text-lg font-semibold">
@@ -63,13 +109,20 @@ export default function MonitorsPage() {
                   </div>
                 </div>
               </div>
-
-              {/* Nombre debajo */}
               <p className="mt-3 text-lg font-semibold bg-gradient-to-r from-[#00814b] to-green-600 bg-clip-text text-transparent">
                 {t(`monitors.students.${monitor.key}.name`)}
               </p>
             </div>
           ))}
+        </div>
+
+        {/* === IMAGEN DE HORARIOS === */}
+        <div className="w-full flex justify-center mt-20">
+          <img
+            src="/images/horarios.jpg"
+            alt="Horarios de los monitores"
+            className="rounded-2xl shadow-lg max-w-4xl w-full"
+          />
         </div>
       </div>
 

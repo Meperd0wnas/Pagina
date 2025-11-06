@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useNavigate } from "react-router-dom";
-import { animate } from "framer-motion";
+import { animate, motion } from "framer-motion";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -60,7 +60,12 @@ export default function HomePage() {
   const [activeOverlay, setActiveOverlay] = useState(null);
 
   return (
-    <>
+    <motion.div
+      className="w-full h-full"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1.2, ease: "easeOut" }}
+    >
       <style>{`
         .slick-dots li button:before {
           font-size: 12px;
@@ -104,7 +109,7 @@ export default function HomePage() {
 
           <div className="mt-8 flex flex-col md:flex-row justify-center gap-4">
             <button
-              onClick={scrollToLabs} 
+              onClick={scrollToLabs}
               className="w-full md:w-auto px-6 py-3 rounded-full bg-[#00814b] hover:bg-[#0a9a5e] text-white font-semibold transition text-center"
             >
               {t("homepage.cta")}
@@ -137,7 +142,7 @@ export default function HomePage() {
                   <div className="group relative overflow-hidden shadow-2xl bg-white">
                     <div
                       className="relative w-full aspect-[16/9] cursor-pointer"
-                      onClick={() => navigate(`/labs/${lab.key}`)} 
+                      onClick={() => navigate(`/labs/${lab.key}`)}
                     >
                       <img
                         src={lab.image}
@@ -171,7 +176,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-    </>
+    </motion.div>
   );
 }
-
