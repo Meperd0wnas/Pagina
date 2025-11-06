@@ -40,7 +40,7 @@ export default function MonitorsPage() {
           {t("monitors.staff.title")}
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-5xl mx-auto mb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-4xl mx-auto mb-20">
           {staff.map((person) => (
             <div key={person.id} className="flex flex-col items-center text-center group">
               <div className="relative w-full h-64 perspective shadow-lg">
