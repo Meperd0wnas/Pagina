@@ -96,7 +96,7 @@
     "logo": "IS Laboratory",
     "home": "Home",
     "labs": "Labs",
-    "monitors": "Monitors",
+    "monitors": "Staff",
     "contact": "Contact",
     "login": "Login"
   },
@@ -134,6 +134,21 @@
         "name": "Laura",
         "caption": "Systems Engineering Student"
       }
+    },
+    "staff": {
+    "title": "Laboratory Staff",
+    "gerardo": {
+      "name": "Gerardo Ospina",
+      "role": "Laboratory Director and Professor"
+    },
+    "aurora": {
+      "name": "Aurora León",
+      "role": "Windows and Oracle Administrator"
+    },
+    "sebastian": {
+      "name": "Sebastián",
+      "role": "Linux and MySQL Administrator"
     }
+  }
   }
 }

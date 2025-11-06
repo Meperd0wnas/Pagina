@@ -130,8 +130,23 @@
       "laura": {
         "name": "Laura",
         "caption": "Estudiante de Ingeniería de Sistemas"
+        }
+        },
+  "staff": {
+      "title": "Personal del Laboratorio",
+      "gerardo": {
+        "name": "Gerardo Ospina",
+        "role": "Director de Laboratorio y Profesor"
+      },
+      "aurora": {
+        "name": "Aurora León",
+        "role": "Administradora Windows y Oracle"
+      },
+      "sebastian": {
+        "name": "Sebastián",
+        "role": "Administrador Linux y MySQL"
+        }
       }
     }
-}
 }
 

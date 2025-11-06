@@ -9,27 +9,14 @@ export default function MonitorsPage() {
     document.title = `${t("navbar.monitors", "Personal")} - Escuela Colombiana de Ingeniería Julio Garavito`;
   }, [t]);
 
+  // 🧑‍🏫 Personal del laboratorio (usa traducciones)
   const staff = [
-    {
-      id: 1,
-      name: "Gerardo Ospina",
-      role: "Director de Laboratorio y Profesor",
-      image: "/images/staff/gerardo.jpg",
-    },
-    {
-      id: 2,
-      name: "Aurora León",
-      role: "Administradora Windows y Oracle",
-      image: "/images/staff/aurora.jpg",
-    },
-    {
-      id: 3,
-      name: "Sebastián",
-      role: "Administrador Linux y MySQL",
-      image: "/images/staff/sebastian.jpg",
-    },
+    { id: 1, key: "gerardo", image: "/images/staff/gerardo.jpg" },
+    { id: 2, key: "aurora", image: "/images/staff/aurora.jpg" },
+    { id: 3, key: "sebastian", image: "/images/staff/sebastian.jpg" },
   ];
 
+  // 👩‍💻 Monitores (ya traducidos)
   const monitors = [
     { id: 1, key: "david", image: "/images/monitors/david.jpg" },
     { id: 2, key: "ruge", image: "/images/monitors/ruge.jpg" },
@@ -50,7 +37,7 @@ export default function MonitorsPage() {
       <div className="relative z-10 w-full max-w-7xl">
         {/* === SECCIÓN DE PERSONAL === */}
         <h2 className="text-3xl sm:text-4xl font-extrabold text-center bg-gradient-to-r from-[#00814b] to-green-600 bg-clip-text text-transparent mb-10">
-          Personal
+          {t("monitors.staff.title")}
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-5xl mx-auto mb-20">
@@ -62,19 +49,23 @@ export default function MonitorsPage() {
                   <div className="absolute inset-0 backface-hidden overflow-hidden">
                     <img
                       src={person.image}
-                      alt={person.name}
+                      alt={t(`monitors.staff.${person.key}.name`)}
                       className="w-full h-full object-cover"
                     />
                   </div>
                   {/* Reverso */}
                   <div className="absolute inset-0 bg-[#00814b] text-white flex flex-col items-center justify-center text-center px-4 backface-hidden rotate-y-180">
-                    <p className="text-lg font-semibold">{person.name}</p>
-                    <p className="text-sm mt-2">{person.role}</p>
+                    <p className="text-lg font-semibold">
+                      {t(`monitors.staff.${person.key}.name`)}
+                    </p>
+                    <p className="text-sm mt-2">
+                      {t(`monitors.staff.${person.key}.role`)}
+                    </p>
                   </div>
                 </div>
               </div>
               <p className="mt-3 text-lg font-semibold bg-gradient-to-r from-[#00814b] to-green-600 bg-clip-text text-transparent">
-                {person.name}
+                {t(`monitors.staff.${person.key}.name`)}
               </p>
             </div>
           ))}
@@ -119,9 +110,9 @@ export default function MonitorsPage() {
         {/* === IMAGEN DE HORARIOS === */}
         <div className="w-full flex justify-center mt-20">
           <img
-            src="/images/horarios.jpg"
-            alt="Horarios de los monitores"
-            className="rounded-2xl shadow-lg max-w-4xl w-full"
+            src="/images/horarios/HorarioM.jpg"
+            alt={t("monitors.scheduleAlt", "Horarios de los monitores")}
+            className=" shadow-lg max-w-6xl w-full"
           />
         </div>
       </div>
