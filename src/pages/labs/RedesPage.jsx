@@ -79,12 +79,6 @@ export default function RedesPage() {
           <p>{t("descriptions.redes_schedule2")}</p>
         </div>
 
-        <div>
-          <p className="font-semibold text-green-700 uppercase text-xl">
-            {t("labels.equipment")}:
-          </p>
-          <p>{t("descriptions.redes_equipment")}</p>
-        </div>
       </motion.div>
     </motion.section>
   );

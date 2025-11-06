@@ -68,8 +68,25 @@
     "redes_phone": "+57 (1) 6683600",
     "redes_schedule1": "Lunes a viernes 7:00 am a 7:00 pm (jornada continua)",
     "redes_schedule2": "Sábados 7:00 am a 1:00 pm",
-    "redes_equipment": "HP ProDesk 600 G1 SFF (16 equipos) — Intel Core i7, 16 GB RAM, 500 GB disco duro"
 
+    "plataformas_description": "Ofrece a estudiantes y profesores del Programa un espacio especializado para trabajo en el área de infraestructura computacional, sistemas operativos y plataformas computacionales con doble arranque Linux/Windows. Permite la creación de máquinas virtuales personalizadas para dar mayor flexibilidad a los montajes requeridos. Hace parte del Laboratorio de Infraestructura Computacional junto con el laboratorio de Redes de Computadores, los cuales pueden integrarse para facilitar el trabajo en grupos grandes.",
+    "plataformas_location": "Bloque B primer piso.",
+    "plataformas_phone": "+57 (1) 6683600 Ext: 246",
+    "plataformas_schedule1": "Lunes a viernes 7:00 am a 7:00 pm (jornada continua)",
+    "plataformas_schedule2": "Sábados 7:00 am a 1:00 pm",
+
+    "software_description": "Ofrece a estudiantes y profesores del programa un espacio especializado para el trabajo en el área de desarrollo y adaptación de aplicaciones y bases de datos. Dispone de entornos Linux y Windows, y permite la creación de máquinas virtuales personalizadas, lo que brinda mayor flexibilidad en los montajes requeridos.",
+    "software_location": "Bloque B primer piso",
+    "software_phone": "+57 (1) 6683600 Ext: 246",
+    "software_schedule1": "Lunes a viernes 7:00 am a 7:00 pm (jornada continua)",
+    "software_schedule2": "Sábados 7:00 am a 1:00 pm",
+
+    "C1-205A_description": "Ofrecer a estudiantes y profesores del programa un espacio especializado para el trabajo en el área de desarrollo y adaptación de aplicaciones y bases de datos. Dispone de entornos Linux y Windows, y permite la creación de máquinas virtuales personalizadas, lo que brinda mayor flexibilidad en los montajes requeridos.",
+    "C1-205A_location": "Bloque C segundo piso, salón C1-205A",
+    "C1-205A_phone": "+57 (1) 6683600",
+    "C1-205A_schedule1": "Lunes a viernes 7:00 am a 7:00 pm (jornada continua)",
+    "C1-205A_schedule2": "Sábados 7:00 am a 1:00 pm"
+    
   },
 
   "navbar": {

@@ -67,8 +67,27 @@
     "redes_phone": "+57 (1) 6683600",
     "redes_schedule1": "Monday to Friday 7:00 am to 7:00 pm (continuous session)",
     "redes_schedule2": "Saturdays 7:00 am to 1:00 pm",
-    "redes_equipment": "HP ProDesk 600 G1 SFF (16 computers) — Intel Core i7, 16 GB RAM, 500 GB hard drive"
-  
+
+
+    "plataformas_description": "Provides students and professors with a specialized space for work in the area of computational infrastructure, operating systems, and computing platforms. It offers dual boot Linux/Windows and allows the creation of customized virtual machines for flexible configurations. It is part of the Computational Infrastructure Laboratory along with the Computer Networks Laboratory, which can be integrated for large group work.",
+    "plataformas_location": "Block B, first floor.",
+    "plataformas_phone": "+57 (1) 6683600 Ext: 246",
+    "plataformas_schedule1": "Monday to Friday 7:00 am to 7:00 pm (continuous session)",
+    "plataformas_schedule2": "Saturdays 7:00 am to 1:00 pm",
+
+    "software_description": "Provides students and professors with a specialsized space for work in the area of application and database development and adaptation. It offers both Linux and Windows environments and allows the creation of customized virtual machines, providing greater flexibility for required setups.",
+    "software_location": "Block B, first floor",
+    "software_phone": "+57 (1) 6683600 Ext: 246",
+    "software_schedule1": "Monday to Friday 7:00 am to 7:00 pm (continuous session)",
+    "software_schedule2": "Saturdays 7:00 am to 1:00 pm",
+
+    "C1-205A_description": "Provides students and professors with a specialized space for work in the area of application and database development and adaptation. It offers both Linux and Windows environments and allows the creation of customized virtual machines, providing greater flexibility for required setups.",
+    "C1-205A_location": "Block C, second floor, room C1-205A",
+    "C1-205A_phone": "+57 (1) 6683600",
+    "C1-205A_schedule1": "Monday to Friday 7:00 am to 7:00 pm (continuous session)",
+    "C1-205A_schedule2": "Saturdays 7:00 am to 1:00 pm"
+
+
 
   },
 
